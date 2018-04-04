@@ -1,26 +1,77 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-div.a {
-    text-indent: 25px;
-}
 
-div.b {
-    text-indent: -2em;
-}
-
-div.c {
-    text-indent: 30%;
-}
-
-
-
-body{background-color: gray}
 h1 {
 	color: white;
 	font-size: 30px;	
 }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(darkgray, white) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
-</style>
-</head>
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: greenyellow;
+  color: white;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.4em;
+    color: #333;
+    word-wrap: break-word;
+}
+.profpic{
+    width:1000px;
+    position:static;
+    top:15%;
+    right:50%;
+    float: right;
+    width:50%;
+    vertical-align:middle;
+    display: inline-block;
+}
+
+.columnwrapper{
+    overflow: auto;
+    height:1000px;
+    position: relative;
+}
+
+.pwrapper{
+    float:right;
+    width:50%;
+    top:10;
+    vertical-align: middle;
+    display: inline-block;
+}
+.imagewrapper{
+    position: absolute;
+    top: 10px;
+    left:-250px;
+    width: 800px;
+    height: 300px
+}
