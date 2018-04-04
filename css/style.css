@@ -46,7 +46,7 @@ p {
 }
 .profpic{
     width:1000px;
-    position:static;
+    position:absolute;
     top:15%;
     right:50%;
     float: right;
@@ -64,14 +64,21 @@ p {
 .pwrapper{
     float:right;
     width:50%;
-    top:10;
+    top:100px;
     vertical-align: middle;
     display: inline-block;
 }
 .imagewrapper{
     position: absolute;
-    top: 10px;
-    left:-250px;
+    left:100px;
     width: 800px;
     height: 300px
+}
+ul.posts li {
+    list-style: none;
+}
+
+footer {
+    border-top: 1px solid #373A46;
+    font-size: .8em;
 }
