@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Cartography, GIS, GPS"/>
+        <title>Michael Merlini | Maps</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(darkgray, white) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: greenyellow;
+  color: white;
+}
+footer {
+    border-top: 1px solid black;
+    font-size: 10px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    width:100%;
+    background-color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="../index.html">Home</a>
+  <a href="../about.html">About</a>
+  <a href="../resume.html">Resume</a>
+  <a href="../contact.html">Contact</a>
+  
+</div>
+
+<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+					<h2 class="portfolio-title">Huntin' and Fishin': Exploring Participation in Minnesota by County 2000</h2>
+					<p class="portfolio-description">
+						This map looks at the particiaption rates by county for the state of Minnesota. The map displays both fishing and hunting participation rates for the year 2000 in a bivariate map.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-16 portfolio-image">
+					<a href="../assets/highdefinition.PNG"><img src="../assets/highdefinition.PNG" width = "500" alt="Surveyed and Non-Surveyed Lakes" class="center-block img-responsive"/></a>
+				</div>
+			</div>
+		</div>
+  <footer>
+      <ul>
+          <ul style="list-style: none;" >
+            <li>© michaelmerlini</li>
+            <li>last updated: april 18, 2021</li>
+      </ul>
+  </footer>
+    
+</body>
+</html>
