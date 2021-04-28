@@ -68,7 +68,7 @@ footer {
 <div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-					<h2 class="portfolio-title">Huntin' and Fishin': Exploring Participation in Minnesota by County 2000</h2>
+					<h2 class="portfolio-title">Humminbird Surveyed and Non-Surveyed Lakes</h2>
 					<p class="portfolio-description">
 						This map looks at the particiaption rates by county for the state of Minnesota. The map displays both fishing and hunting participation rates for the year 2000 in a bivariate map.
 					</p>
